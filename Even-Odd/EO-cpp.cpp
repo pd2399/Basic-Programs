@@ -16,8 +16,6 @@ void evenOdd(int number){
         cout<<number<<" is an odd number\n";
     }
 }
-// Function Declaration / Protoype
-void evenOdd(int number);
 
 
 void main(){      // Main Function
