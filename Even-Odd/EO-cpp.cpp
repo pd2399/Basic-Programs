@@ -11,11 +11,11 @@ int evenOdd(int number){
     {
         cout<<"The number is an odd number\n";
     }
-    
     return 0;
 }
 
 int evenOdd(int number);
+
 
 int main(){
     while (true)
@@ -33,6 +33,5 @@ int main(){
             evenOdd(number);
         }
     }
-
     return 0;
 }
