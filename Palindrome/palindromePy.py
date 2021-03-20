@@ -2,7 +2,7 @@
 
 # Define a function to check palindrome
 def isPalindrome(string):
-    # Declare two empty strings to store half strings
+    # Declare two empty strings to store the half strings
     fh = ""
     sh = ""
     # If the number of letters are even, exactly half of the string is considered
