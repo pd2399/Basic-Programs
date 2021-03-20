@@ -22,7 +22,7 @@ void main(){      // Main Function
     // Create a loop to check program continuously 
     while (true)
     {
-        // Take input from user and convert to int
+        // Take input from user
         cout<< "Enter 0 to quit.\n";
         cout<<"Enter the number: ";
         int number;
