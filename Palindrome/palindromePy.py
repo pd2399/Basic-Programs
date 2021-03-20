@@ -31,7 +31,7 @@ def isPalindrome(string):
     else:
         # Find the middle letter
         midi = (len(string)-1) / 2
-        # Itterate over the string and add letters upto midi to fh and letters after midi to sh, middle letter is not considered
+        # Iterate over the string and add letters upto midi to fh and letters after midi to sh, middle letter is not considered
         for i in range(len(string)):
             if i < midi:
                 fh = "".join((fh, string[i]))
