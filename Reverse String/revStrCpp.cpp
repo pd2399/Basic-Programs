@@ -24,7 +24,7 @@ void reverse(string str){
 }
 
 
-void main(){  // Main Function
+int main(){  // Main Function
     // Create a loop to check program continuously
     while (true)
     {
@@ -44,4 +44,5 @@ void main(){  // Main Function
             reverse(str);
         }
     }  
+    return 0;
 }

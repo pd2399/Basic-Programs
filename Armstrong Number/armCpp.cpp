@@ -31,7 +31,7 @@ void isArm(int number, int length){
 }
 
 
-void main(){      // Main Function
+int main(){      // Main Function
     // Create a loop to check program continuously 
     while (true)
     {
@@ -51,4 +51,5 @@ void main(){      // Main Function
         // Call the above function
         isArm(number,length);
     }
+    return 0;
 }

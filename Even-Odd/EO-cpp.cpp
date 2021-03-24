@@ -18,7 +18,7 @@ void evenOdd(int number){
 }
 
 
-void main(){      // Main Function
+int main(){      // Main Function
     // Create a loop to check program continuously 
     while (true)
     {
@@ -38,4 +38,5 @@ void main(){      // Main Function
             evenOdd(number);
         }
     }
+    return 0;
 }

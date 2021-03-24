@@ -18,7 +18,7 @@ int fact(int number){
     
 }
 
-void main(){      // Main Function
+int main(){      // Main Function
     // Create a loop to check program continuously 
     while (true)
     {
@@ -38,4 +38,5 @@ void main(){      // Main Function
             cout<<"The answer is: "<<fact(number)<<endl;
         }
     }
+    return 0;
 }

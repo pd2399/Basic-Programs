@@ -34,7 +34,8 @@ void swap2(int a, int b){
 }
 
 
-void main(){
+int main(){
     swap1(5,10);    // Calling 1st function
     swap2(4,7);     // Calling 2nd function
+    return 0;
 }

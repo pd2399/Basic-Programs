@@ -29,7 +29,7 @@ void isPrime(int number){
 }
 
 
-void main(){      // Main Function
+int main(){      // Main Function
     // Create a loop to check program continuously 
     while (true)
     {
@@ -49,4 +49,5 @@ void main(){      // Main Function
             isPrime(number);
         }
     }
+    return 0;
 }

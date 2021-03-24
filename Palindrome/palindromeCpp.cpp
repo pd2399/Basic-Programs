@@ -60,11 +60,11 @@ void isPalindrome(string str){
             if (i < midi)
             {
                 // Syntax: str.append(no. of times char repeats, char)
-                fh.append(1,temp);
+                fh.append(1,str[i]);
             }
             else if (i > midi)
             {
-                sh.append(1,temp);
+                sh.append(1,str[i]);
             }
             else
             {
@@ -95,7 +95,7 @@ void isPalindrome(string str){
 }
 
 
-void main(){  // Main Function
+int main(){  // Main Function
     // Create a loop to check program continuously
     while (true)
     {
@@ -115,4 +115,5 @@ void main(){  // Main Function
             isPalindrome(str);
         }
     }  
+    return 0;
 }
